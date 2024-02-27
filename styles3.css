@@ -1,0 +1,52 @@
+header {
+    grid-area: header;
+    background-color: yellowgreen;
+    padding: 5px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+  .tagline{
+    padding-top: 40px;
+      padding-left: 100px;
+    font-size: 50px;
+    width: 200px;
+    
+}
+  
+article {
+    grid-area: content;
+    background-color: green;
+    padding: 20px;
+  }
+  
+  aside {
+    grid-area: sidebar;
+    background-color: lavender;
+    
+  }
+  .sidenav{
+    font-size: 20px;
+    font-color: black;
+  }
+
+  .sectiune{
+    
+  }
+  footer {
+    padding: 20px;
+    grid-area: footer;
+    background-color: plum;
+  }
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "header  header"
+      "sidebar content"
+      "footer  footer";
+  }

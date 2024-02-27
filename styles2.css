@@ -1,0 +1,14 @@
+body{
+margin: 0;
+
+}
+
+.container{
+    height: 450px;
+    width: 900px;
+    padding: 16px;
+    background-image: url("https://clydeinsider.co.uk/wp-content/uploads/2023/01/Aurora-and-Beans.jpg");
+    color: azure;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
